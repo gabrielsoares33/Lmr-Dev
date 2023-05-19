@@ -1,0 +1,74 @@
+body {
+    background-color: #3c096c;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 80%;
+}
+
+header nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(252, 227, 0);
+}
+
+.hamburger {
+    display: none;
+}
+
+.p1 {
+    background-image: url(img/investimento-tecnologia-empresas.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 1px; */
+}
+
+.p1 .titulo {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 80px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.titulo h2 {
+
+}
+
+.titulo img {}
+
+@media screen and (max-width: 768px) {
+    .hamburger{
+        display: inline;
+    }
+    header nav {
+        display: none;
+    }
+}

@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(238, 231, 231);
+    /* body é uma tag*/
+}
+
+#menu {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 14, 209);
+    /* # serve para ids*/
+    text-align: center;
+    padding: 10px;
+}
+
+#menu img {
+    height: 60px;
+}
+
+.linkMenu {
+    color: rgb(255, 217, 0);
+    /* . serve para classes*/
+    font-size: 2em;
+}
+
+.parte1 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+
+.parte1 img {
+    width: 40%;
+}
+
+.parte1 h1 {
+    color: rgba(255, 0, 0, 0.842);
+}
+
+.parte1 p {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#login {
+    text-align: center;
+    width: 50%;
+    height: 545px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(333deg, rgba(0, 0, 0, 1) 0%, rgba(0, 14, 209, 1) 49%, rgba(0, 0, 0, 1) 100%);
+    margin-left: 26%;
+    margin-top: 7%;
+    border-radius: 35px;
+    padding: 3%;
+}
+
+#login h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 217, 0);
+    background-color: black;
+    width: 60%;
+    height: 425px;
+    margin-top: 7%;
+    margin-left: 20%;
+    border-radius: 10%
+}
+
+.contato {
+
+    text-align: center;
+    width: 50%;
+    height: 545px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(333deg, rgba(0, 0, 0, 1) 0%, rgba(0, 14, 209, 1) 49%, rgba(0, 0, 0, 1) 100%);
+    margin-left: 26%;
+    margin-top: 7%;
+    border-radius: 35px;
+}
+
+.contato h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 217, 0);
+}
+
+.contato h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 217, 0);
+    background-color: black;
+    width: 60%;
+    height: 425px;
+    margin-left: 20%;
+    border-radius: 10%
+}
+
+header {
+    height: 80px;
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
