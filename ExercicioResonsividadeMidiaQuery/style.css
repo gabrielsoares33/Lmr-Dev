@@ -29,19 +29,19 @@ body {
 
 }
 
-.parte1 h3 {
+.parte1 h1 {
     position: relative;
     margin-right: 0%;
     left: 150px;
     bottom: 500px;
-    color: rgb(255, 255, 255);
+    color: rgb(240, 229, 229);
     font-family: Arial;
     
 }
 
 .parte1 h2 {
     position: relative;
-    bottom: 500px;
+    bottom: 10px;
     color: white;
     font-family: Arial;
     font-size: xx-large;
@@ -96,4 +96,30 @@ body {
     .parte2 {padding: 90px;}
     .parte2 img {width: 315px;}
     .banner p {}
+}
+.parte2 img {
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 850px;
+    position: relative;
+    bottom: 85px; 
+
+    
+} 
+body {
+    background-color: rgb(77, 164, 164);
+    margin: 0%;
+}
+.Beta1 img {
+    width: 75%;
+    height: 625px;
+
+}
+.Ultra2 img {
+    width: 100%;
+    height: 350px;
+}
+.cardsSeparados{
+    display: flex;
+    flex-direction: row;
 }
